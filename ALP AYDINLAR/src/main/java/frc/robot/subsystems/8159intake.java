@@ -9,8 +9,8 @@ import edu.wpi.first.wpilibj2.command.Subsystembase;
 
 public class IntakeSubsystem extends SubsystemBase {
 
-private final TalconX intakerightMotor = new TalconX(3);
-private final TalconX intakeleftMotor = new TalconX(4);
+private final TalonFX intakerightMotor = new TalonFX(3);
+private final TalonFX intakeleftMotor = new TalonFX(4);
 
        public IntakeSubsystem() {
       } 
